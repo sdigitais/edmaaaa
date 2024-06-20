@@ -53,26 +53,6 @@ nav img{
     width: 100%;
 }
 
-.text-box{
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-
-.text-box h1{
-    font-size: 42px;
-}
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 12px;
-    color: #fff;
-}
-
 more-btn{
     display: inline-block;
     text-decoration: none;
@@ -84,7 +64,6 @@ more-btn{
     position: relative;
     cursor: pointer;
 }
-
 .more-btn:hover{
     border: 1px solid #fff;
     background: rgba(195, 236, 238, 0.7);
@@ -130,128 +109,61 @@ nav .fa{
     }
 }
 
-
-
-
-/*----contacte----*/
-.contact{
-    margin: 50px auto;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/contacte-banner.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.contact h1{
+.text-box{
+    width: 90%;
     color: #fff;
-    margin-bottom: 40px;
-    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
-@media(max-width: 700px){
-    .contact h1{
-        font-size: 18px;
-    }
+.text-box h1{
+    font-size: 42px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 12px;
+    color: #fff;
 }
 
 /*----footer----*/
 .footer{
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.footer h5{
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
-}
-
-.footer .fa{
-    cursor: pointer;
-    margin: 0 10px;
-    padding: 10px 0;
-}
-
-/*----- ABOUT US ----*/
-
-.about-header {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../images/bg-about.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
-
-.about-header h1{
-    margin-top: 100px;
-}
-
-.acerca-de-nos{
-    width: 80%;
-    margin: auto;
-    padding-top: 0px;
-    padding-bottom: 50px;
-}
-
-.acerca-col{
-    flex-basis: 48%;
-    padding: 2px 2px;
-}
-
-.acerca-col img{
-    width: 100%;
-}
-
-.acerca-col img:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-    cursor: pointer;
-}
-
-.acerca-col h1{
-    padding-top: 0;
-}
-
-.acerca-col p{
-    padding-top: 0;
-}
-.acerca-col p{
-    padding: 15px 0 25px;
-}
-
-.blue-btn{
-    border: 1px solid rgba(0, 0, 0, 0.89);
-    background: transparent;
-    color: rgba(0, 0, 0, 0.89);
-}
-
-/*---------Contacte-nos---------*/
-.contact-header{
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../images/contacto.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
-
-.contact-header h1{
-    margin-top: 100px;
-}
-
-
-
-
-
-
-
+    background-color: black;
+    color: white;
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      margin: 0px;
+    }
+    
+    .footer h5{
+      margin-bottom: 25px;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    
+    .footer .fa{
+      cursor: pointer;
+      margin: 0 10px;
+      padding: 10px 0;
+    }
+    
+    .footer p {
+    margin: 0px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
