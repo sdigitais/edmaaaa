@@ -6,13 +6,11 @@
 .header{
   min-height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(241, 231, 231, 0.7), rgba(0, 0, 0, 0.7));
+  background-image: linear-gradient(rgba(248, 241, 241, 0.7), rgba(0, 0, 0, 0.7));
   background-position: center;
   background-size: cover;
   position: relative;
 }
-
-
 nav img{
   width: 120px;
 }
@@ -51,60 +49,57 @@ nav img{
       width: 100%;
   }
 
-.div {
-  background-color: white;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px, 20px,30px,40px;
-}
+  .servico {
+    background-color: lightgray;
+  }
+  .servico .texto {
+    flex: 1;
+    text-align: justify;
+    max-width: calc(100% - 250px);
+    margin: 0 auto;
+  }
+  .servicos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .servicos  li {
+    margin: 10px 0;
+    padding-left: 10px;
+    position: relative;
+    font-size: 17px;
+  }
+  .imagem-servico {
+    max-width: 40%;
+    padding-left: 5%;
+    margin-top: 7%;
+    float: left;
+  }
 
-.servico {
-  background-color: lightgray;
-}
-.servico .texto {
-  flex: 1;
-  text-align: justify;
-  max-width: calc(100% - 250px);
-  margin: 0 auto;
-}
-.servicos ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.servicos  li {
-  margin: 10px 0;
-  padding-left: 10px;
-  position: relative;
-  font-size: 17px;
-}
-
-
-/*----footer----*/
+  /*----footer----*/
 .footer{
-background-color: black;
-color: white;
-  width: 100%;
-  text-align: center;
-  padding: 20px 0;
-  margin: 0px;
+  background-color: black;
+  color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0px;
 }
 
 .footer h5{
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 .footer .fa{
-  cursor: pointer;
-  margin: 0 10px;
-  padding: 10px 0;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 0;
 }
 
 .footer p {
-margin: 0px;
+  margin: 0px;
 
 }
 
@@ -112,7 +107,30 @@ margin: 0px;
 
 
 
+  
 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
