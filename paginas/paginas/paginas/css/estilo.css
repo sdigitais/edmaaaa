@@ -82,7 +82,8 @@ nav img{
   }
 
   /*----footer----*/
-.footer{
+.rodape{
+  clear: both;
   background-color: black;
   color: white;
     width: 100%;
@@ -91,19 +92,19 @@ nav img{
     margin: 0px;
 }
 
-.footer h5{
+.rodape h5{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
 }
 
-.footer .fa{
+.rodape .fa{
     cursor: pointer;
     margin: 0 10px;
     padding: 10px 0;
 }
 
-.footer p {
+.rodape p {
   margin: 0px;
 
 }
